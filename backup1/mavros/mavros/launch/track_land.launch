@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="mavros" type="track_land" name="track_land" output="screen">
+
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/nvidia/ws_mavros/config/track_land.yaml" />
+	</node>
+</launch>

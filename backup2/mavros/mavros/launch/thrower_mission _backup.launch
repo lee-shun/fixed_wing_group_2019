@@ -1,0 +1,13 @@
+<launch>
+
+
+    <!-- run thrower_mission.cpp -->
+    <node pkg="dji_sdk" type="thrower_mission" name="thrower_mission" output="screen">
+
+        <!-- Read M100 parameters -->
+	<rosparam command="load" file="~/catkin_ws/src/mavros/mavros/launch/thrower_mission_config.yaml" />
+    </node>
+
+</launch>
+
+

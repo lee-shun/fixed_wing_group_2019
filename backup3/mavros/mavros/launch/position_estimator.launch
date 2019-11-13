@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="mavros" type="position_estimator" name="position_estimator" output="screen">
+
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/nuc-1/catkin_ws/config/position_estimator_config.yaml" />
+	</node>
+</launch>

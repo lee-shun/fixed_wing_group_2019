@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- run thrower_serial.cpp -->
+    <node pkg="mavros" type="thrower_serial" name="thrower_serial" output="screen">
+
+    </node>
+
+</launch>
+
+

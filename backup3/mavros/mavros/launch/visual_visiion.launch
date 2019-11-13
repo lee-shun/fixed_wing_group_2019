@@ -1,0 +1,8 @@
+<launch>
+	<!-- run the visual_visiion.cpp -->
+
+	<node pkg="mavros" type="visual_visiion" name="visual_visiion" output="screen">
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/nuc/mavros3/config/visual_visiion_config.yaml" />
+	</node>
+</launch>

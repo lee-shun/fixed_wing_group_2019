@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="mavros" type="position_control_vins" name="position_control_vins" output="screen">
+
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/nuc/mavros3/config/position_control_config_vins.yaml" />
+	</node>
+</launch>

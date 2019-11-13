@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the catch_mission.cpp -->
+
+	<node pkg="mavros" type="catch_mission" name="catch_mission" output="screen">
+
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/nuc/mavros3/config/catch_mission_config.yaml" />
+	</node>
+</launch>

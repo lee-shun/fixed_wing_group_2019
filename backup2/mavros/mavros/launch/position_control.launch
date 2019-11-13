@@ -1,0 +1,9 @@
+<launch>
+	<!-- run the position_control.cpp -->
+
+	<node pkg="mavros" type="position_control" name="position_control" output="screen">
+
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="/home/sss/catkin_ws/config/position_control_config.yaml" />
+	</node>
+</launch>

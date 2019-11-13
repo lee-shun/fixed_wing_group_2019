@@ -1,0 +1,46 @@
+# Drone 3 config parameter
+Drone_Number: 3
+
+# Control Parameter for M100
+kpx: 1.2
+kpy: 1.2
+kpz: 1
+kpyaw: 0.8
+
+kdx: 0
+kdy: 0
+kdz: 0
+
+Max_velx: 7
+Max_vely: 7
+Max_velz: 4
+Max_velyaw: 3.14
+
+Thres_velx: 0.02
+Thres_vely: 0.02
+Thres_velz: 0.02
+Thres_velyaw: 0.01
+
+Thres_distance: 0.4
+Thres_count: 50
+
+# 投掷高度
+Throw_height: 15
+#M100起飞前等待时间
+Thres_count_takeoff: 3
+
+#飞行高度init
+fly_height_init: 35
+#飞行高度差delta
+fly_height_delta: 5
+#飞行保持偏航角
+fly_yaw: 0
+
+
+
+#搜索区 东北角 目标点 GPS 经纬度
+#LonEN: 115.697536
+#LatEN: 39.536098
+#搜索区 西南角 目标点 GPS 经纬度
+#LonWS: 115.696449
+#LatWS: 39.535300
